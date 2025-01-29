@@ -54,8 +54,11 @@ console.log(div)
 console.log("ex6")
 let saldoConta = 1000
 let saque = 500
+
+let total = saldoConta > saque
+
 let saldoSuficiente = saldoConta - saque
 let saldoMaiorCem = saldoSuficiente > 100
 
-console.log(saldoSuficiente)
+console.log(total)
 console.log(saldoMaiorCem)
